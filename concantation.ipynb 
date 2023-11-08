@@ -1,0 +1,141 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPr8ONNLd0s14KEoj+V6KBi",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aradhya2010/C69-BOOK-SHOP/blob/main/concantation.ipynb%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-PoYOXNyhOJC",
+        "outputId": "272ddd4a-2108-4354-ea30-4032bdad8787"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "aradhya\n"
+          ]
+        }
+      ],
+      "source": [
+        "first_name = \"aradhya\"\n",
+        "print(first_name)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name = \"aradhya\"\n",
+        "full_name = \"srivastava\"\n",
+        "print(first_name + full_name)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4k0Bel8yhtCS",
+        "outputId": "b4cdb078-6c7b-4c72-b03d-7b3eb5b667b7"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "aradhyasrivastava\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name = full_name + \"  \" + first_name\n",
+        "print(first_name)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5H1Ot8klh_kz",
+        "outputId": "cf2ce0cb-8c71-4390-93dd-7875dc82bc26"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "srivastava  aradhya\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# adding a space while adding strings is the same way how use add a string..\n",
+        "#lets find a more logical and easier way to do it"
+      ],
+      "metadata": {
+        "id": "_sEo6A2liipr"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "first_name = \"aradhya  \"\n",
+        "last_name = \"srivastava\"\n",
+        "full_name = first_name + last_name\n",
+        "print(full_name)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OOCwvHjJiqPg",
+        "outputId": "531b47b5-f5ca-4da3-d6a9-d283f6421516"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "aradhya  srivastava\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
